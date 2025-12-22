@@ -1,3 +1,7 @@
-git add merge_branches
-git commit -m "Add merge branch output"
+git checkout main
+Switched to branch 'main'
 
+git merge bug-fix-typo
+Updating a1b2c3d..e4f5g6h
+README.md | 1 +
+1 file changed, 1 insertion(+)
